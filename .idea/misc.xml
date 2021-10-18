@@ -3,6 +3,10 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Z/bukupelajaran/app/src/main/res/drawable/ic_login.xml" value="0.1787037037037037" />
+        <entry key="..\:/Z/bukupelajaran/app/src/main/res/drawable/ic_logo_background.xml" value="0.10740740740740741" />
+        <entry key="..\:/Z/bukupelajaran/app/src/main/res/drawable/ic_logoapk_background.xml" value="0.1787037037037037" />
+        <entry key="..\:/Z/bukupelajaran/app/src/main/res/drawable/logo.xml" value="0.1787037037037037" />
         <entry key="..\:/Z/bukupelajaran/app/src/main/res/layout/activity_main.xml" value="0.25" />
       </map>
     </option>
