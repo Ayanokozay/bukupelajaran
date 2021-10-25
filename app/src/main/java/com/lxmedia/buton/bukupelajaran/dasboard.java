@@ -1,26 +1,25 @@
 package com.lxmedia.buton.bukupelajaran;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.cardview.widget.CardView;
 
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.Button;
 
-public class MainActivity extends AppCompatActivity {
-    private Button loginbtn;
+public class dasboard extends AppCompatActivity {
+    private CardView bahasapemrogramanbtn;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_dasboard);
+        bahasapemrogramanbtn = findViewById(R.id.bahasapemrogramanbtn);
 
-        loginbtn = findViewById(R.id.loginbtn);
-
-        loginbtn.setOnClickListener(new View.OnClickListener() {
+        bahasapemrogramanbtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(getApplicationContext(), dasboard.class);
+                Intent intent = new Intent(getApplicationContext(), MainActivity2.class);
                 startActivity(intent);
             }
         });
