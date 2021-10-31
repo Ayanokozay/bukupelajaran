@@ -10,6 +10,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Bukupelajaran">
         <activity
+            android:name=".pemdaskls11"
+            android:exported="true" />
+        <activity
+            android:name=".pemdaskls10"
+            android:exported="true" />
+        <activity
+            android:name=".pemdassmk"
+            android:exported="true" />
+        <activity
             android:name=".bukucplusplus"
             android:exported="true" />
         <activity

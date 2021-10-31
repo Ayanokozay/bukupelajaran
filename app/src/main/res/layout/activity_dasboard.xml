@@ -57,6 +57,7 @@
             </LinearLayout>
         </androidx.cardview.widget.CardView>
         <androidx.cardview.widget.CardView
+            android:id="@+id/pemdasbtn"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_columnWeight="1"
@@ -71,10 +72,14 @@
                 android:orientation="vertical"
                 android:gravity="center"
                 android:layout_gravity="center_vertical|center_horizontal">
+                <ImageView
+                    android:layout_width="45dp"
+                    android:layout_height="45dp"
+                    android:src="@drawable/ic_pemdas"/>
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="BAHASA PEMROGRAMAN"
+                    android:text="PEMROGRAMAN DASAR"
                     android:textStyle="bold"
                     android:textColor="@color/black"
                     android:textAlignment="center"/>
