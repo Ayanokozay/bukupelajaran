@@ -25,5 +25,12 @@ public class MainActivity2 extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+        cppbtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(MainActivity2.this, bukucplusplus.class);
+                startActivity(intent);
+            }
+        });
     }
 }
