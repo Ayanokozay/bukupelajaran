@@ -100,10 +100,14 @@
                 android:orientation="vertical"
                 android:gravity="center"
                 android:layout_gravity="center_vertical|center_horizontal">
+                <ImageView
+                    android:layout_width="45dp"
+                    android:layout_height="45dp"
+                    android:src="@drawable/ic_video"/>
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="BAHASA PEMROGRAMAN"
+                    android:text="VIDEO PEMBELAJARAN"
                     android:textStyle="bold"
                     android:textColor="@color/black"
                     android:textAlignment="center"/>
@@ -124,10 +128,14 @@
                 android:orientation="vertical"
                 android:gravity="center"
                 android:layout_gravity="center_vertical|center_horizontal">
+                <ImageView
+                    android:layout_width="45dp"
+                    android:layout_height="45dp"
+                    android:src="@drawable/ic_book_svgrepo_com"/>
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="BAHASA PEMROGRAMAN"
+                    android:text="E-BOOK"
                     android:textStyle="bold"
                     android:textColor="@color/black"
                     android:textAlignment="center"/>
@@ -148,10 +156,14 @@
                 android:orientation="vertical"
                 android:gravity="center"
                 android:layout_gravity="center_vertical|center_horizontal">
+                <ImageView
+                    android:layout_width="45dp"
+                    android:layout_height="45dp"
+                    android:src="@drawable/ic_test_svgrepo_com"/>
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="BAHASA PEMROGRAMAN"
+                    android:text="TEST/QUIZ"
                     android:textStyle="bold"
                     android:textColor="@color/black"
                     android:textAlignment="center"/>
