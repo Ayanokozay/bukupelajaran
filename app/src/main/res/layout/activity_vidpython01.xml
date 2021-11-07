@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:padding="16dp"
+    tools:context=".vidpython01">
+
+    <TextView
+        android:id="@+id/bpdn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Belajar Python Dari Nol"
+        android:textSize="32sp"
+        android:textColor="@color/purple_500"
+        android:layout_centerHorizontal="true"/>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/bpdn">
+
+        <VideoView
+            android:id="@+id/vidpy01"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </FrameLayout>
+
+</RelativeLayout>
