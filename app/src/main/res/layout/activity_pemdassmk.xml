@@ -68,31 +68,6 @@
                         android:text="KELAS 11"/>
                 </LinearLayout>
             </androidx.cardview.widget.CardView>
-            <androidx.cardview.widget.CardView
-                android:id="@+id/kls12btn"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_columnWeight="1"
-                android:layout_rowWeight="1"
-                app:cardElevation="5dp"
-                app:cardCornerRadius="5dp"
-                app:cardBackgroundColor="#2196F3"
-                app:cardUseCompatPadding="true">
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:orientation="vertical"
-                    android:gravity="center_horizontal"
-                    android:padding="10dp">
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:textColor="@color/black"
-                        android:textStyle="bold"
-                        android:textSize="20dp"
-                        android:text="KELAS 12"/>
-                </LinearLayout>
-            </androidx.cardview.widget.CardView>
         </GridLayout>
     </LinearLayout>
 

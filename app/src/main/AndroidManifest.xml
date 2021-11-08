@@ -10,6 +10,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Bukupelajaran">
         <activity
+            android:name=".video03"
+            android:exported="true" />
+        <activity
+            android:name=".video02"
+            android:exported="true" />
+        <activity
             android:name=".introduction"
             android:exported="true" />
         <activity

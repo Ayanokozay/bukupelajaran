@@ -26,6 +26,7 @@
                 android:layout_rowWeight="1"
                 app:cardElevation="5dp"
                 app:cardCornerRadius="5dp"
+                android:background="#807A7C"
                 app:cardUseCompatPadding="true">
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -52,6 +53,7 @@
                 android:layout_rowWeight="1"
                 app:cardElevation="5dp"
                 app:cardCornerRadius="5dp"
+                android:background="#807A7C"
                 app:cardUseCompatPadding="true">
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -78,6 +80,7 @@
                 android:layout_rowWeight="1"
                 app:cardElevation="5dp"
                 app:cardCornerRadius="5dp"
+                android:background="#807A7C"
                 app:cardUseCompatPadding="true">
                 <LinearLayout
                     android:layout_width="match_parent"
