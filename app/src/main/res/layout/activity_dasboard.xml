@@ -143,6 +143,7 @@
             </LinearLayout>
         </androidx.cardview.widget.CardView>
         <androidx.cardview.widget.CardView
+            android:id="@+id/introbtn"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_columnWeight="1"
@@ -160,7 +161,7 @@
                 <ImageView
                     android:layout_width="45dp"
                     android:layout_height="45dp"
-                    android:src="@drawable/ic_test_svgrepo_com"/>
+                    android:src="@drawable/ic_introduction"/>
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
