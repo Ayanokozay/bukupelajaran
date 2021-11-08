@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Bukupelajaran">
         <activity
+            android:name=".bukujava"
+            android:exported="true" />
+        <activity
             android:name=".vidpython01"
             android:exported="true" />
         <activity

@@ -86,6 +86,7 @@
             </LinearLayout>
         </androidx.cardview.widget.CardView>
         <androidx.cardview.widget.CardView
+            android:id="@+id/vidbtn"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_columnWeight="1"
@@ -131,11 +132,11 @@
                 <ImageView
                     android:layout_width="45dp"
                     android:layout_height="45dp"
-                    android:src="@drawable/ic_book_svgrepo_com"/>
+                    android:src="@drawable/ic_test_svgrepo_com"/>
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="E-BOOK"
+                    android:text="TEST/QUIZ"
                     android:textStyle="bold"
                     android:textColor="@color/black"
                     android:textAlignment="center"/>
@@ -163,7 +164,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="TEST/QUIZ"
+                    android:text="INTRODUCTION"
                     android:textStyle="bold"
                     android:textColor="@color/black"
                     android:textAlignment="center"/>

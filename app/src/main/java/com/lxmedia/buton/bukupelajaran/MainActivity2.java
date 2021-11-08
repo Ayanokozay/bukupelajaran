@@ -32,5 +32,12 @@ public class MainActivity2 extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+        javabtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(MainActivity2.this, bukujava.class);
+                startActivity(intent);
+            }
+        });
     }
 }
