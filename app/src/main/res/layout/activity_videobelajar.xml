@@ -115,7 +115,7 @@
                         android:textColor="@color/black"
                         android:textStyle="bold"
                         android:textSize="20dp"
-                        android:text="VIDEO 04"/>
+                        android:text="BELAJAR BAHASA PYTHON"/>
                 </LinearLayout>
             </androidx.cardview.widget.CardView>
         </GridLayout>

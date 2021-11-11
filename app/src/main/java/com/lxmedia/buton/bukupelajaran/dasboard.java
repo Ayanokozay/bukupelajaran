@@ -8,7 +8,7 @@ import android.os.Bundle;
 import android.view.View;
 
 public class dasboard extends AppCompatActivity {
-    private CardView bahasapemrogramanbtn, pemdasbtn, vidbtn, introbtn, infoappbtn;
+    private CardView bahasapemrogramanbtn, pemdasbtn, vidbtn, soalbtn, introbtn, infoappbtn;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -17,6 +17,7 @@ public class dasboard extends AppCompatActivity {
         bahasapemrogramanbtn = findViewById(R.id.bahasapemrogramanbtn);
         pemdasbtn = findViewById(R.id.pemdasbtn);
         vidbtn = findViewById(R.id.vidbtn);
+        soalbtn = findViewById(R.id.soalbtn);
         introbtn = findViewById(R.id.introbtn);
         infoappbtn = findViewById(R.id.infoappbtn);
 
@@ -38,6 +39,13 @@ public class dasboard extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(getApplicationContext(), videobelajar.class);
+                startActivity(intent);
+            }
+        });
+        soalbtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(getApplicationContext(), quis.class);
                 startActivity(intent);
             }
         });
