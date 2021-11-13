@@ -6,15 +6,15 @@ import android.os.Bundle;
 
 import com.github.barteksc.pdfviewer.PDFView;
 
-public class soaljava extends AppCompatActivity {
+public class soalpd extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_soaljava);
+        setContentView(R.layout.activity_soalpd);
 
-        PDFView pdfView = findViewById(R.id.soaljava);
+        PDFView pdfView = findViewById(R.id.soalpd);
 
-        pdfView.fromAsset("soaljava.pdf").load();
+        pdfView.fromAsset("soalpd.pdf").load();
     }
 }
