@@ -4,9 +4,9 @@
 
     <application
         android:allowBackup="true"
-        android:icon="@drawable/logo"
+        android:icon="@drawable/cbook1"
         android:label="BUKU PELAJARAN"
-        android:roundIcon="@drawable/logo"
+        android:roundIcon="@drawable/cbook1"
         android:supportsRtl="true"
         android:theme="@style/Theme.Bukupelajaran">
         <activity
